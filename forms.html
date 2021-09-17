@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+  get- puts form data into URL
+  post - hides data in browser
+  action - where the form goes
+ -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Example</title>
+  </head>
+  <body>
+    <!--
+    <form method="" action=""> - Declares the type of form and where it goes
+    <input type="" name=""> -> defines an input of the type listed and name listed
+                              Types of Inputs: text,radio,checkbox
+     -->
+    <form method="get" action="temp.html">
+      <label for="Name">Name</label><input type ="text" name="name"><br/>
+      <label for="grade">Grade 12</label><input type ="radio" name="grade12" value=12<br/>
+      <label for="grade">Grade 11</label><input type ="radio" name="grade11" value=11<br/>
+      <label for="grade">Grade 10</label><input type ="radio" name="grade10" value=10<br/>
+      <label for="grade">Grade 9</label><input type ="radio" name="grade19" value=19<br/>
+      <label for="class">Cyber Security</label><input type ="checkbox" name="class" value=WebDesign<br/>
+      <label for="class">AP CSP</label><input type ="checkbox" name="class" value=APCS<br/>
+
+      <textarea rows="10" cols="52">The Starter Data</textarea>
+      <input type="submit" value="Hm.. Maybe this was not a great choice....">
+
+    </form>
+  </body>
+</html>
